@@ -26,7 +26,10 @@ library(ggplot2)
 library(ggmap)
 
 
-map <- get_map(location='arkansas', zoom=8, maptype = "terrain",
-               source='google',color='color')
+mapImageData2 <- get_map(location = c(lon = -0.016179, lat = 51.538525),
+    color = "color",
+    source = "google",
+    maptype = "terrain",
+    zoom = 16)
 
 
