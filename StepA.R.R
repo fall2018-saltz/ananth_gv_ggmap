@@ -31,5 +31,10 @@ mapImageData2 <- get_map(location = c(lon = -0.016179, lat = 51.538525),
     source = "google",
     maptype = "terrain",
     zoom = 16)
+    
+ggmap(mapImageData2,
+    extent = "device",
+    ylab = "Latitude",
+    xlab = "Longitude")
 
 
