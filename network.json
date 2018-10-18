@@ -47,9 +47,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "assigned_to": "agauribi",
             "desc": "",
             "name": "US_Arrests.R.R",
@@ -62,6 +59,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 04:22:49",
+    "updated_at": "2018-10-18 05:06:26",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
