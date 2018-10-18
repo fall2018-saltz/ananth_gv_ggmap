@@ -30,12 +30,18 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "agauribi",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "US_Arrests.R.R"
         }
     ],
-    "updated_at": "2018-10-18 04:17:12",
+    "updated_at": "2018-10-18 04:17:44",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
