@@ -13,28 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "us_arrest",
-                    "output": "arrests",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "US_Arrests.R.R",
-            "target": "StepA.R.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "us_census",
-                    "output": "resultant_dataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "StepA.R.R"
         }
     ],
     "nodes": [
@@ -51,14 +29,8 @@
             "desc": "",
             "name": "US_Arrests.R.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "StepA.R.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:06:26",
+    "updated_at": "2018-10-18 05:06:31",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
