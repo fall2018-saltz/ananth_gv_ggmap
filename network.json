@@ -7,22 +7,23 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "data",
                     "type": "csv"
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us_arrest",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "US_Arrests.R.R",
+            "target": "StepA.R.R"
         }
     ],
     "nodes": [
@@ -46,6 +47,6 @@
             "name": "StepA.R.R"
         }
     ],
-    "updated_at": "2018-10-18 04:18:10",
+    "updated_at": "2018-10-18 04:18:59",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
