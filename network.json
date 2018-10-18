@@ -7,22 +7,22 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -36,6 +36,6 @@
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-18 04:16:39",
+    "updated_at": "2018-10-18 04:17:12",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
