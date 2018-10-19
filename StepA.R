@@ -4,6 +4,8 @@
 
 #2)	Add the area of each state, and the center of each state, to the merged dataframe, using the ‘state.center’, ‘state.center’ and ‘state.name’ vectors
 
+
+
 merged_data <- merge(us_arrest, us_census, by.x = "row.names", by.y = c("NAME"), all = TRUE)    # merge 3 dataframes together using merge function by "row.names" from arrests and "NAME" (state name) of dfstates
                                                                                             # Union of data set is created by state name.
 
