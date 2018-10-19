@@ -27,4 +27,5 @@ library("ggmap")
 us <- map_data("state")
 options(scipen=999)
 map2 <- ggplot(merged_data, aes(map_id = stateName))
-map2 <- map2 + geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(low = "black", high = "red")   
+map2 <- map2 + geom_map(map = us,aes(fill=Murder))+ scale_fill_gradient(low = "black", high = "red")
+map2
