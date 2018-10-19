@@ -20,6 +20,7 @@ merged_area <- cbind(name, area, center)
 
 merged_data <- merge(merged_data ,merged_area, by.x = c("Row.names"), by.y = c("state.name"), all = TRUE)
 
+colnames(merged_data)[1] <- "stateName"
 
 library("ggplot2")
 library("ggmap")
