@@ -56,6 +56,17 @@
             ],
             "source": "StepB.R",
             "target": "Murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "StepC.R"
         }
     ],
     "nodes": [
@@ -90,10 +101,12 @@
             "name": "Murder.png"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "StepC.R"
+            "name": "StepC.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-19 20:45:43",
+    "updated_at": "2018-10-19 20:47:46",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
