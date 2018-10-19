@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us_arrest",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "US_Arrests.R.R",
+            "target": "StepA.R"
         }
     ],
     "nodes": [
@@ -36,6 +47,6 @@
             "name": "StepA.R"
         }
     ],
-    "updated_at": "2018-10-19 01:14:19",
+    "updated_at": "2018-10-19 01:14:43",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
