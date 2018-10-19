@@ -87,6 +87,17 @@
             ],
             "source": "StepB.R",
             "target": "Area.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepD.R"
         }
     ],
     "nodes": [
@@ -133,10 +144,12 @@
             "name": "Area.png"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "StepD.R"
+            "name": "StepD.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-19 20:51:16",
+    "updated_at": "2018-10-19 20:52:26",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
