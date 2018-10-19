@@ -35,16 +35,6 @@
             ],
             "source": "census.R",
             "target": "StepA.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map2",
-                    "type": "png"
-                }
-            ],
-            "source": "StepA.R",
-            "target": "map.png"
         }
     ],
     "nodes": [
@@ -56,9 +46,6 @@
             "desc": "",
             "name": "US_Arrests.R.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "map.png"
         },
         {
             "assigned_to": "agauribi",
@@ -73,6 +60,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-19 20:42:16",
+    "updated_at": "2018-10-19 20:42:34",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
