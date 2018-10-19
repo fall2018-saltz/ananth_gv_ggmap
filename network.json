@@ -115,12 +115,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "US_Arrests.R.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Murder.png"
         },
         {
@@ -161,8 +155,14 @@
             "desc": "Load and Clean Census Data",
             "name": "census.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load Arrests Data set",
+            "name": "US_Arrests.R.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-19 20:54:44",
+    "updated_at": "2018-10-19 20:54:53",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
