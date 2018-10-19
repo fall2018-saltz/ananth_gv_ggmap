@@ -58,8 +58,12 @@
             "desc": "",
             "name": "StepA.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "StepB.R"
         }
     ],
-    "updated_at": "2018-10-19 20:42:34",
+    "updated_at": "2018-10-19 20:42:55",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
