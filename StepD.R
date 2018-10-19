@@ -3,6 +3,10 @@
 
 #6)	Repeat step C, but only show the states in the north east
 
+library("ggplot2")                       #load library ggplot2
+library("ggmap")                         #load library ggmap
+
+
 states_map <- map_data("state")                                                            # load the entire usa map dataset using map_data - this contains infomration of each state against all possible latitude longitude points under it. 
 options(scipen=999)                                                                        # Use options(scipen=999) to disable scientific notation and display the values in numeric format
 latlon <- geocode("new york city, ny",source="dsk")                                        # use geocode function to geocode or mark a particular point by ltitude or longitude or name from data science tool kit(dsk) as source attribute for reference.
