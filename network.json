@@ -148,8 +148,11 @@
             "desc": "",
             "name": "StepD.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "Zoom.png"
         }
     ],
-    "updated_at": "2018-10-19 20:52:26",
+    "updated_at": "2018-10-19 20:52:33",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
