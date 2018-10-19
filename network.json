@@ -67,6 +67,16 @@
             ],
             "source": "StepC.R",
             "target": "Murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_population",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "Population.png"
         }
     ],
     "nodes": [
@@ -110,6 +120,6 @@
             "name": "Population.png"
         }
     ],
-    "updated_at": "2018-10-19 20:48:55",
+    "updated_at": "2018-10-19 20:49:04",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
