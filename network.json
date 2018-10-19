@@ -77,6 +77,16 @@
             ],
             "source": "StepA.R",
             "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_area",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Area.png"
         }
     ],
     "nodes": [
@@ -123,6 +133,6 @@
             "name": "Area.png"
         }
     ],
-    "updated_at": "2018-10-19 20:50:41",
+    "updated_at": "2018-10-19 20:50:53",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
