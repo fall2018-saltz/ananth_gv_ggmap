@@ -152,17 +152,17 @@
         },
         {
             "assigned_to": "agauribi",
-            "desc": "Load and Clean Census Data",
-            "name": "census.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
             "desc": "Load Arrests Data set",
             "name": "US_Arrests.R.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load and Clean Census Data",
+            "name": "census.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-19 20:56:15",
+    "updated_at": "2018-10-19 20:56:18",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
