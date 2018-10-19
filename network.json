@@ -50,17 +50,6 @@
         {
             "ports": [
                 {
-                    "input": "merged_data",
-                    "output": "merged_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "StepB.R",
-            "target": "StepC.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "map_by_murder",
                     "type": "png"
                 }
@@ -77,6 +66,17 @@
             ],
             "source": "StepC.R",
             "target": "Population.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepC.R"
         }
     ],
     "nodes": [
@@ -120,6 +120,6 @@
             "name": "Population.png"
         }
     ],
-    "updated_at": "2018-10-19 20:49:04",
+    "updated_at": "2018-10-19 20:49:35",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
