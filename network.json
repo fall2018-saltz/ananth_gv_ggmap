@@ -102,12 +102,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "StepB.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Murder.png"
         },
         {
@@ -118,8 +112,14 @@
         },
         {
             "name": "Population.png"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "",
+            "name": "StepB.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-19 20:49:35",
+    "updated_at": "2018-10-19 20:50:34",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
