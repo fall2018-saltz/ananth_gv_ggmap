@@ -35,6 +35,16 @@
             ],
             "source": "census.R",
             "target": "StepA.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map2",
+                    "type": "png"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "map.png"
         }
     ],
     "nodes": [
@@ -63,6 +73,6 @@
             "name": "map.png"
         }
     ],
-    "updated_at": "2018-10-19 01:23:34",
+    "updated_at": "2018-10-19 01:23:43",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
