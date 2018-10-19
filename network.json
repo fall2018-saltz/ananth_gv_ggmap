@@ -154,15 +154,15 @@
             "name": "Area.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "StepD.R",
-            "task_status": "in progress"
+            "name": "Zoom.png"
         },
         {
-            "name": "Zoom.png"
+            "assigned_to": "agauribi",
+            "desc": "Zoom the map",
+            "name": "StepD.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-19 20:52:46",
+    "updated_at": "2018-10-19 20:53:50",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
