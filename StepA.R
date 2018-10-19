@@ -10,15 +10,9 @@ merged_data <- merge(us_arrest, us_census, by.x = "row.names", by.y = c("NAME"),
                                                                                             # Union of data set is created by state name.
 
 merged_data <- merged_data[-c(9),]       #remove the 9th row which is not a US state.
-
-# rownames(merged_data) <- seq(length=nrow(merged_data)) 
-
-
 center <- data.frame(state.center)       # fetch the centre dataset from state data source and convert to data frame using data.frame. This contains 2 columns
 area <- data.frame(state.area)           # fetch the area dataset from state data source and convert to data frame using data.frame
 name <- data.frame(state.name)           # fetch the name dataset from state data source and convert to data frame using data.frame
-
-#as.numeric(rownames(center))
 
 merged_area <- cbind(name, area, center) # merge all 3 dataframes name,area,centre. Since they are 50 Objects each they are cross merged by index
 
