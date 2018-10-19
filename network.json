@@ -136,12 +136,6 @@
             "name": "Murder.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "StepC.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Population.png"
         },
         {
@@ -161,8 +155,14 @@
             "desc": "Zoom the map",
             "name": "StepD.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Create a color shaded map of the U.S. based on the Murder rate for each state ",
+            "name": "StepC.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-19 20:53:50",
+    "updated_at": "2018-10-19 20:54:01",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
