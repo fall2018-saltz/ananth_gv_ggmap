@@ -12,5 +12,8 @@ map_by_murder <- map_by_murder + geom_map(map = states_map,aes(fill=merged_data$
                  expand_limits(x = states_map$long, y = states_map$lat)+                    # use expand limits function to Expand the plot limits and include single value to declare how the outline of map is to be plotted - by latitude and longitude.
                  labs(fill="Murder Rate")+ coord_map()                                      # use coord_map to project the plot into a 2D plane # label the fill using labs function
 map_by_murder
+
+
+
   
   
