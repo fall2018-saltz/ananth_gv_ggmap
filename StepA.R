@@ -27,3 +27,4 @@ library("ggmap")
 us <- map_data("state")
 options(scipen=999)
 map2 <- ggplot(merged_data, aes(map_id = stateName))
+map2
