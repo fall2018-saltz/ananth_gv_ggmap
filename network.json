@@ -160,9 +160,9 @@
             "assigned_to": "agauribi",
             "desc": "Load Arrests Data set",
             "name": "US_Arrests.R.R",
-            "task_status": "in progress"
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-19 20:54:53",
+    "updated_at": "2018-10-19 20:56:15",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
