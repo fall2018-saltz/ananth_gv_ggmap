@@ -1,0 +1,168 @@
+{
+    "collaborators": [
+        "agauribi"
+    ],
+    "created_at": "2018-10-18 04:15:52",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us_arrest",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "US_Arrests.R.R",
+            "target": "StepA.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us_census",
+                    "output": "resultant_dataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "StepA.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepB.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "Murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_population",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "Population.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_area",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Area.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_zoom",
+                    "type": "png"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "Zoom.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "Murder.png"
+        },
+        {
+            "name": "Population.png"
+        },
+        {
+            "name": "Area.png"
+        },
+        {
+            "name": "Zoom.png"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load Arrests Data set",
+            "name": "US_Arrests.R.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load and Clean Census Data",
+            "name": "census.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Create a color shaded map of the U.S. based on the Murder rate for each state ",
+            "name": "StepC.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Generate a color coded map",
+            "name": "StepB.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Zoom the map",
+            "name": "StepD.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load and Merge datasets",
+            "name": "StepA.R",
+            "task_status": "completed"
+        }
+    ],
+    "updated_at": "2018-10-19 20:57:07",
+    "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
+}
