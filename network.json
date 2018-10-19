@@ -134,12 +134,6 @@
         },
         {
             "assigned_to": "agauribi",
-            "desc": "Generate a color coded map",
-            "name": "StepB.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
             "desc": "Load Arrests Data set",
             "name": "US_Arrests.R.R",
             "task_status": "completed"
@@ -161,8 +155,14 @@
             "desc": "Create a color shaded map of the U.S. based on the Murder rate for each state ",
             "name": "StepC.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Generate a color coded map",
+            "name": "StepB.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-19 20:56:26",
+    "updated_at": "2018-10-19 20:56:29",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
