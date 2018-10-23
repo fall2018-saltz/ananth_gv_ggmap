@@ -39,12 +39,75 @@
         {
             "ports": [
                 {
-                    "output": "map2",
-                    "type": "png"
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
                 }
             ],
             "source": "StepA.R",
-            "target": "map.png"
+            "target": "StepB.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "Murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_population",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "Population.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_area",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Area.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_by_zoom",
+                    "type": "png"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "Zoom.png"
         }
     ],
     "nodes": [
@@ -52,27 +115,54 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "name": "Murder.png"
+        },
+        {
+            "name": "Population.png"
+        },
+        {
+            "name": "Area.png"
+        },
+        {
+            "name": "Zoom.png"
+        },
+        {
             "assigned_to": "agauribi",
-            "desc": "",
+            "desc": "Load Arrests Data set",
             "name": "US_Arrests.R.R",
-            "task_status": "in progress"
+            "task_status": "completed"
         },
         {
             "assigned_to": "agauribi",
-            "desc": "",
+            "desc": "Load and Clean Census Data",
             "name": "census.R",
-            "task_status": "in progress"
+            "task_status": "completed"
         },
         {
             "assigned_to": "agauribi",
-            "desc": "",
-            "name": "StepA.R",
-            "task_status": "in progress"
+            "desc": "Create a color shaded map of the U.S. based on the Murder rate for each state ",
+            "name": "StepC.R",
+            "task_status": "completed"
         },
         {
-            "name": "map.png"
+            "assigned_to": "agauribi",
+            "desc": "Generate a color coded map",
+            "name": "StepB.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Zoom the map",
+            "name": "StepD.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load and Merge datasets",
+            "name": "StepA.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-19 01:23:43",
+    "updated_at": "2018-10-19 20:57:07",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggmap"
 }
